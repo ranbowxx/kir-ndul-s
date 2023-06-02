@@ -25,8 +25,33 @@
         </div>
       </nav>
 
-<div>
-      <img src="KÉPEK/IMG_20211026_172918SR2.jpg"  id="kep" class="img-fluid" alt="Responsive image">
+<div id="kep">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="kezdőlap/thumbbig-366859.webp" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="kezdőlap/thumbbig-680487.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="kezdőlap/thumbbig-719349.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
     </div>
 
       <table  id="tabla"  class="table table-bordered">
@@ -218,6 +243,6 @@
 
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrolltopbutton.js"></script>
+  
 </body>
 </html>
