@@ -4,11 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-     
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">OSZTÁLYKIRÁNDULÁS BUDAPEST</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">KEZDŐLAP <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#tabla">UTAZÁSI TERV</a>
+            <a class="nav-item nav-link" href="#ter">TÉRKÉP</a>
+            <a class="nav-item nav-link " href="#galeria">KÉP GALÉRIA</a>
+          </div>
+        </div>
+      </nav>
 
+      <img src="KÉPEK/IMG_20211026_172918SR2.jpg"  id="kep" class="img-fluid" alt="Responsive image">
+
+      <table  id="tabla"  class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2" id="kozep">1.nap, május 8 hétfő</th>
+                <th colspan="2" id="kozep">2.nap, május 9 kedd</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="ketto" colspan="2">• <b>07:30 </b> Gyülekező Debrecenben a Nagyállomás indulási oldalon (jegypénztáraknál)</td>
+                <td class="ketto" colspan="2">•<b>6:30</b> 	 Ébresztő</td>
+            </tr>
+            <tr>
+                
+                <td class="ketto" colspan="2">• <b>08:07</b> Indulás vonattal Budapestre</td>
+                <td class="keeto" colspan="2">•	<b>7:00-7:30</b>	 Reggeli és megbeszélés</td>
+            </tr>
+            <tr>
+                <td class="keto" colspan="2">• <b>10:37</b> Érkezés Budapestre</td>
+                <td class="keeto" colspan="2">•	<b>8:00</b>	 Reggeli séta</td>
+            </tr>
+                <td class="keeto" colspan="2">•	<b>10:45</b>	 Tömegközlekedési  jegy vásárlás</td>
+                <td class="keeto" colspan="2">•	<b>8:30</b>	 Indulás Halászbástyához, <b>Nyitvatartás:</b> 0-24</td>
+            <tr>
+                <td class="keeto" colspan="2">•	<b>11:05</b>	 Indulás a Margit-szigeti szállásra</td>
+                <td class="keeto" colspan="2">•	<b>9:05</b>	 Érkezés a Halászbástyához</td>
+            </tr>
+            <tr>
+                <td class="keeto" colspan="2">•	<b>11:20</b>	 Szálláshely elfoglalása, lepakolás, ivás, evés további megbeszélések</td>
+                <td class="keeto" colspan="2">•	<b>9:25</b>	 Indulás a szállásra és összepakolás</td>
+            </tr>
+            <tr>
+                <td class="keeto" colspan="2">•	<b>11:45</b>	 Indulás a Magyar Természettudományi múzeumba, <b>Nyitvatartás:</b> minden nap 9:00-17:00, <b>Telefonszám:</b> (06 1) 210 1085</td>
+                <td class="keeto" colspan="2">•	<b>9:45</b>	 Indulás a Nemzeti Múzeumba gyalog, <b>Nyitvatartás:</b> hétfőn zárva, minden más napon 10:00-18:00, <b>Telefonszám:</b> (06 1) 338 2122</td>
+            </tr>
+            <tr>
+                <td class="keeto" colspan="2">•	<b>12:25</b>	múzeumba érkezés</td>
+                <td class="keeto" colspan="2">•	<b>10:25</b>	 Érkezés a Nemzeti Múzeumba</td>
+            </tr>
+            <tr>
+                
+                <td class="keeto" colspan="2">•	<b>12:30</b>	 Indulás ebédelni megegyezés szerint (gyorsétterem, pizzázó)</td>
+            </tr>
+            <tr>
+                <td class="keeto" colspan="2">•	<b>15:15</b>	 Érkezés az állatkertbe és látogatás megkezdése</td>
+                <td class="keeto" colspan="2">•	<b>14:45</b>	 Irány a nyugati pályaudvar</td>
+            </tr>
+            <tr>
+                <td class="keeto" colspan="2">•	<b>18:30</b>	 Vacsora</td>
+                <td class="keeto" colspan="2">•  <b>15:20</b>	 Indulás a 15:28-as vonattal Debrecenbe</td>
+            </tr>
+            <tr>
+                <td class="keeto" colspan="2">• <b>20:00</b> Tisztálkodás, szoba elfoglalása, szabad foglalkozás</td>
+                <td class="keeto" colspan="2">•	<b>18:23</b>	 Érkezés Debrecenbe, és egyénileg indulás haza</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="galeria">
+<!-- Gallery -->
+<div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+  
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+  
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+  
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+    </div>
+  </div>
+  <!-- Gallery -->
+</div>
+
+  <div id="ter">
+<!--Google map-->
+<iframe id="terkep"   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21552.79877302496!2d19.02787618809027!3d47.526919084312894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dbfc77cfaad7%3A0x689f7bae3aa650fd!2sMargit-sziget!5e0!3m2!1shu!2sus!4v1685697560887!5m2!1shu!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!--Google Maps-->
+</div>
 
 
     <script src="js/jquery-3.0.0.min.js"></script>
